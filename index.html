@@ -6,32 +6,84 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dhiyanesh's Site</title>
-  <link rel="stylesheet" href="css\styles.css">
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="letter-d.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Londrina+Outline&family=Merriweather&family=Montserrat&family=Orbitron&family=Silkscreen&display=swap"
-    rel="stylesheet">
-    <style>
-      .certifications{
-        color: #222831;
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Londrina+Outline&family=Merriweather&family=Montserrat&family=Orbitron&family=Silkscreen&display=swap" rel="stylesheet">
+  <style>
+    .certifications {
+      color: #222831;
+    }
+    
+    /* Responsive styles */
+    @media only screen and (max-width: 768px) {
+      .top-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
       }
-    </style>
+      .left,
+      .right {
+        display: none;
+      }
+      .mine,
+      .mines {
+        text-align: center;
+        margin: 20px;
+      }
+      .mountain {
+        height: 30%;
+        text-align: center;
+        top: 30px;
+        left: 0px;
+      }
+    }
+    
+    @media only screen and (max-width: 600px) {
+      .me {
+        height: 50%;
+        width: 50%;
+      }
+      .bio {
+        text-align: center;
+      }
+      .skills {
+        text-align: center;
+      }
+      .img1,
+      .img2 {
+        width: 70%;
+      }
+      .codeskill {
+        margin-bottom: 20px;
+      }
+      .contact-me {
+        text-align: center;
+      }
+      .mine{
+        font-size: 60px;
+      }
+      .mines{
+        font-size: 20px;
+      }
+
+      .mountain{
+        text-align: center;
+      }
+    }
+  </style>
 </head>
 
 <body>
   <div class="top-container" id="topContainer">
     <img class="left" src="left.png" alt="cloud-img">
 
-
     <h1 class="mine">I'M DHIYANESH</h1>
     <h2 class="mines">An Engineering Student.<br>Data Analyst on progress.</h2>
 
     <img class="right" src="right.png" alt="cloud-img">
-    <img class="mountain"
-      src="https://media1.giphy.com/media/ZLngff3RDmj9FmKV1t/giphy.gif?cid=ecf05e47libmsdvoes8189cecc4f5ghs897uy575my2qczb0&rid=giphy.gif&ct=s"
-      alt="mountain-img">
+    <img class="mountain" src="https://media1.giphy.com/media/ZLngff3RDmj9FmKV1t/giphy.gif?cid=ecf05e47libmsdvoes8189cecc4f5ghs897uy575my2qczb0&rid=giphy.gif&ct=s" alt="mountain-img">
   </div>
 
   <div class="middle-container">
@@ -55,19 +107,17 @@
           logic and creativity.</p>
       </div>
       <div class="skill-row">
-        <img class="img1" src="data-science.png" alt="">
-        <h3>Data Analytics</h3>
+        <img class="img1" src="data-science.png" alt=""> 
+        <h3>Data_Analytics</h3>
         <p>Data Analyst on progress...!!</p><br>
 
         <hr style="width: 70px;">
         <h3 style="margin-top: 100px;">My certifications on Data Analytics</h3>
         <ul>
           <li><a class="certifications" href="https://www.coursera.org/account/accomplishments/verify/8ZP37PLFT7XQ" target="_blank">Foundations: Data, Data,
-            Everywhere</a></li>
+              Everywhere</a></li>
           <li><a class="certifications" href="https://www.coursera.org/account/accomplishments/verify/ZGCK4EWNAQ53" target="_blank">Ask Questions to Make
-            Data-Driven Decisions</a></li>
-          
-
+              Data-Driven Decisions</a></li>
         </ul>
 
       </div>
@@ -81,17 +131,12 @@
     </div>
   </div>
 
-
   <div class="bottom-container">
     <a class="footer-link" target="_blank" href="https://www.linkedin.com/in/dhiyanesh-s-a6184725b">LinkedIn</a>
     <a class="footer-link" target="_blank" href="https://twitter.com/Dhiyanesh_offl?t=_qlKTR5u1OC0rmMuhGc1Aw&s=08">Twitter</a>
     <a class="footer-link" target="_blank" href="#topContainer">Website</a>
     <p class="per">©️Dhiyanesh</p>
   </div>
-
-
-
-
 </body>
 
 </html>
